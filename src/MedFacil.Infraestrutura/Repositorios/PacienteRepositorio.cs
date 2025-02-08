@@ -1,6 +1,5 @@
 ﻿using MedFacil.Dominio.Interfaces;
 using MedFacil.Dominio.Modelos;
-using System.Collections.Generic;
 
 namespace MedFacil.Infraestrutura.Repositorios
 {
@@ -8,27 +7,27 @@ namespace MedFacil.Infraestrutura.Repositorios
     {
         public void Atualizar(int id, Paciente paciente)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         public Paciente Criar(Paciente paciente)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         public Paciente ObterPorId(int id)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         public List<Paciente> ObterTodos()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         public void Remover(int id)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
     }
 }
