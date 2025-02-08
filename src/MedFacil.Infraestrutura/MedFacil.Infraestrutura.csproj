@@ -5,4 +5,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MedFacil.Dominio\MedFacil.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>
